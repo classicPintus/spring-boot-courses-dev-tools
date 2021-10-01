@@ -8,6 +8,6 @@ public class DummyRestController {
 
     @GetMapping(path = "/dummyString")
     public String getDummyString(){
-        return "ciao un cazzo";
+        return "changeMe";
     }
 }
